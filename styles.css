@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace, serif, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inspirational-image {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7Eb;
+  font-size: 18px;
+}
+
+
+/* *Reminder-to-self: USE BORDER PROPERTY TO DEBUG EVERYTHING FLEX */
+
+
+/* *Header */
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header {
+  padding: 10px;
+  /* border: 2px solid wheat; */
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 16px;
+}
+
+
+/* *Section - First */
+
+section.first {
+  background-color: #1F2937;
+}
+
+.first-body {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-around;
+  gap: 48px;
+}
+
+section.first .leftside {
+  /* border: 2px solid black; */
+  max-width: 350px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.first-body .title-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.first-body .text {
+  font-size: 18px;
+  color: #E5E7Eb;
+}
+
+.signup-button {
+  align-self: flex-start;
+  background-color: #3882F6;
+  color: #E5E7Eb;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #E5E7Eb;
+  color: #3882F6;
+  transform: translateY(-3px);
+}
