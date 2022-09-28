@@ -33,11 +33,6 @@ a {
   transform: translateY(5px);
 }
 
-/* *Reminder-to-self: USE BORDER PROPERTY TO DEBUG EVERYTHING FLEX */
-
-
-/* *Header */
-
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
@@ -45,7 +40,6 @@ a {
 
 header.header {
   padding: 10px;
-  /* border: 2px solid wheat; */
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
@@ -63,22 +57,17 @@ header.header {
   gap: 16px;
 }
 
-
-/* *Section - First */
-
 .first {
   background-color: #1F2937;
 }
 
 .first-body {
-  /* border: 2px solid rebeccapurple; */
   display: flex;
   justify-content: space-around;
   gap: 48px;
 }
 
 .first .leftside {
-  /* border: 2px solid black; */
   max-width: 350px;
   display: flex;
   flex-flow: column;
@@ -114,23 +103,18 @@ header.header {
   transform: translateY(-3px);
 }
 
-/* *Section - Second */
-
 .second {
-  /* background-color: bisque; */
   text-align: center;
   padding: 15px 0px;
 }
 
 .second.container img {
-  border: 2px solid #3882F6;
   border-radius: 10px;
   max-width: 200px;
   min-height: 150px;
 }
 
 .second.title {
-  /* border: 2px solid black; */
   font-size: 36px;
   font-weight: bold;
 }
@@ -151,9 +135,6 @@ header.header {
   font-weight: bold;
 }
 
-
-/* *Blockquote Section - third */
-
 .third {
   background-color: #E5E7Eb;
   display: flex;
@@ -161,7 +142,6 @@ header.header {
 }
 
 .third .quote-text {
-  /* border: 2px solid black; */
   max-width: 1200px;
   padding: 3% 0;
   font-size: 36px;
@@ -178,14 +158,11 @@ header.header {
 }
 
 .third .named-author {
-  /* border: 2px solid blueviolet; */
   font-weight: bold;
   align-self: flex-end;
   margin-left: -18%;
   padding-bottom: 2%;
 }
-
-/* *Fourth section */
 
 .fourth {
   margin: auto;
@@ -225,8 +202,6 @@ header.header {
 .fourth.container .signup-button:hover {
   background-color: #F9FAF8;
 }
-
-/* *Footer Section  */
 
 .footer {
   min-height: 50px;
