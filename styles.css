@@ -172,7 +172,14 @@ header.header {
   font-size: 36px;
   font-weight: light;
   font-style: italic;
-  flex: 0 1 auto
+  transition: .4s ease-in-out;
+}
+
+.third .quote-text:hover {
+  color: #3882F6;
+  font-weight: bold;
+  text-decoration: underline;
+  transform: translate(3%, 3%);
 }
 
 .third .named-author {
