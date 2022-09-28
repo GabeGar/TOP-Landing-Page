@@ -1,7 +1,8 @@
 # odin-landing-page
 
 
-#######################
+############################################################################################
+
 Copyright Author(s) and image links: 
 
 1. Author: helloimnik
@@ -23,6 +24,7 @@ Copyright Author(s) and image links:
 	4. https://unsplash.com/photos/9Zjd7PE_FRM
 	
 	
+	
 *** Special thanks and credit to author(s), for image(s) used in my the landing page project ***
 
-#######################
+############################################################################################
