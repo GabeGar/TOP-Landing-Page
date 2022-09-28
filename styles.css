@@ -230,3 +230,20 @@ header.header {
 .fourth.container .signup-button:hover {
   background-color: #F9FAF8;
 }
+
+/* *Footer Section  */
+
+.footer {
+  min-height: 50px;
+}
+
+.footer.container {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer.container .text {
+  color: #F9FAF8;
+}
