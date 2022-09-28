@@ -23,8 +23,15 @@ a {
   text-decoration: none;
   color: #E5E7Eb;
   font-size: 18px;
+  transition: 0.2s;
 }
 
+.navbar-links li a:hover {
+  color: #3882F6;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translateY(5px);
+}
 
 /* *Reminder-to-self: USE BORDER PROPERTY TO DEBUG EVERYTHING FLEX */
 
