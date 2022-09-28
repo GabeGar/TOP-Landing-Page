@@ -112,7 +112,7 @@ header.header {
 .second {
   /* background-color: bisque; */
   text-align: center;
-  padding: 15px;
+  padding: 15px 0px;
 }
 
 .img-placeholder {
@@ -120,6 +120,11 @@ header.header {
   border-radius: 10px;
   max-width: 200px;
   min-height: 150px;
+}
+
+.img-placeholder:hover {
+  background-color: #1F2937;
+  transition: 0.2s;
 }
 
 .second.title {
@@ -136,4 +141,10 @@ header.header {
 
 .second.container .info {
   max-width: 200px;
+  transition: 0.1s;
+}
+
+.second.container .info:hover {
+  color: orange;
+  font-weight: bold;
 }
