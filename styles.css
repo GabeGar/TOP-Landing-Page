@@ -122,16 +122,11 @@ header.header {
   padding: 15px 0px;
 }
 
-.img-placeholder {
+.second.container img {
   border: 2px solid #3882F6;
   border-radius: 10px;
   max-width: 200px;
   min-height: 150px;
-}
-
-.img-placeholder:hover {
-  background-color: #1F2937;
-  transition: 0.2s;
 }
 
 .second.title {
