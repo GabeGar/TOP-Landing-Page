@@ -155,3 +155,30 @@ header.header {
   color: orange;
   font-weight: bold;
 }
+
+
+/* *Blockquote Section */
+
+.third {
+  background-color: #E5E7Eb;
+  display: flex;
+  justify-content: center;
+}
+
+.third .quote-text {
+  /* border: 2px solid black; */
+  max-width: 1200px;
+  padding: 3% 0;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  flex: 0 1 auto
+}
+
+.third .named-author {
+  /* border: 2px solid blueviolet; */
+  font-weight: bold;
+  align-self: flex-end;
+  margin-left: -18%;
+  padding-bottom: 2%;
+}
